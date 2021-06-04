@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Cryptography and Network Security
+        </title>
+        <meta charset="utf-8">
+        <meta name='viewport' content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="course-style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <a href="../intro_login/intro.php" class="logo">MyPrepMate</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <a class="nav-link" href="../stud_dash/stud-dash.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="Courses.html">Courses</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="../Videos/Videos.html">Videos</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="Quiz.html">Quiz</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="../elib_cart/Elibrary.php">E-library</a>
+                    </li>
+                    <li >
+                        <a class="head-button" href="../intro_login/intro.php">LogOut!</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="../stud_dash/stud-dash.html" class="head-avatar">
+                <img src="../images/img_avatar2.png" />
+            </a>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </header>
+        <script src="course-style.js"></script>
+
+        <main>
+            <section class="course-banner">
+                <div class="cover">
+                    <img src="../images/cns-icon.png" alt="WebDev">
+                </div>
+                <div class="introduction">
+                    <div class="course-text">
+                        <h1>Cryptography & Network Security</h1>
+                        <p>
+                            The easiest way to learn modern web design HTML5 and CSS3 step-by-step from scratch <br>
+                            Learn to design and code webpage <br>
+                            Also learn how to integrate databases into the web design and host them on servers <br>
+                            Language: English <br>
+                            Duration: 24 weeks
+                        </p>
+                    </div>
+                    <div class="cta">
+                        <a class="cta-buy"  href="../elib_cart/Buy_Courses.php">
+                            Buy Course
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="course-bottom">
+                <div class="col1">
+                    <h1>
+                        What you will learn
+                    </h1>
+                    <ul>
+                        <li>
+                            How to write HTML5 syntax along with semantics
+                        </li>
+                        <li>
+                            Learn to style your HTML documents using Cascasing StyleSheets 
+                        </li>
+                        <li>
+                            Add dynamic content to your webpages using Javascript
+                        </li>
+                        <li>
+                            Learn to create Cookies and Sessions using PHP
+                        </li>
+                        <li>
+                            Host your webites on a web server 
+                        </li>
+                        <li>
+                            Store and transmit data displayed by your HTML using XML codes
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col2">
+                    <h1>
+                        Contents
+                    </h1>
+                    <p>
+                            How to write HTML5 syntax along with semantics
+                        <br>
+                        
+                            Learn to style your HTML documents using Cascasing StyleSheets 
+                        <br>
+                        
+                            Add dynamic content to your webpages using Javascript
+                        <br>
+                        
+                            Learn to create Cookies and Sessions using PHP
+                        <br>
+                        
+                            Host your webites on a web server 
+                        <br>
+                        
+                            Store and transmit data displayed by your HTML using XML codes
+                        <br>
+                    </p>
+                </div>
+            </section>
+        </main>
+        
+        <section class="course-banner">
+            <div class="introduction">
+                <div class="course-text-2">
+                    <h1>Meet your Instructor!</h1>
+                    <p>
+                        The easiest way to learn modern web design HTML5 and CSS3 step-by-step from scratch <br>
+                        Learn to design and code webpage <br>
+                        Also learn how to integrate databases into the web design and host them on servers <br>
+                        Language: English <br>
+                        Duration: 24 weeks
+                    </p>
+                </div>
+            </div>
+            <div class="cover">
+                <img src="../images/cns-icon.png" alt="WebDev">
+            </div>
+             <div class="cta">
+                                <style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+<table id="demo"></table>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xhttp.open("GET", "TestAjax.xml", true);
+  xhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Teacher</th><th>Subject</th></tr>";
+  var x = xmlDoc.getElementsByTagName("CD");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("SUBJECT")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+<br>
+                        <a class="cta-buy"  onclick="loadDoc()">
+                            See Instructor
+                        </a>
+            </div>
+        </section>
+    </body>
+</html>

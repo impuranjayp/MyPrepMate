@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Berlin Sans FB', Arial, sans-serif;
+}
+
+header{
+    background: linear-gradient(to bottom, #f3ab33 0%, #ffff 100%);
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    padding-left: 73px;
+    padding-right: 73px;
+}
+
+.logo-container, .nav-links, .head-items{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+    justify-content: center;
+}
+
+.logo{
+    text-decoration: none;
+    font-family: 'Satisfy', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+
+nav{
+    flex: 3;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.head-button{
+    background-color: #2073d4;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 7px 32px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.head-avatar{
+    text-align: center; 
+}
+
+.head-avatar img{
+    width: 40%;
+    border-radius: 100%;
+}
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1130px){
+	body{
+		overflow-x: hidden;
+	}
+	.nav-links{
+		display: flex;
+		position: absolute;
+		right: 0px;
+		top: 8vh;
+		flex-direction: column;
+		align-items: center;
+		background-color: lightblue;
+		height: 92vh;
+		width: 25%;
+		z-index: 1;
+		transform: translateX(100%);
+		transition: transform 0.5s;
+	}
+	.nav-link, .head-button{
+		opacity: 0;
+	}
+	.burger{
+		display: block;
+		cursor: pointer;
+	}
+
+}
+
+.nav-active{
+	transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+	from{
+		opacity: 0;
+		transform: translateX(100px);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.toggle .line1{
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+	opacity: 0;
+}
+.toggle .line3{
+	transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.course-banner{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(90deg, rgb(43,43,43), rgb(71, 71, 71));
+    color: white;
+    margin-top: 10px;
+    padding-left: 73px;
+    padding-right: 73px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cover{
+    flex: 1;
+    text-align: center;
+}
+
+.introduction{
+    flex: 1;
+}
+
+.course-text h1{
+    line-height: 1.4;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.course-text p{
+    font-size: 20px;
+}
+
+.cta{
+    padding: 50px 0 0 0;
+}
+
+.cta-buy{
+    text-decoration: none;
+    background-color: #2073d4;
+	border: none;
+    color: white;
+    font-weight: 700;
+	margin-right: 5px;
+	cursor: pointer;
+    border-radius: 20px;
+    padding: 7px 32px;
+}
+
+.course-bottom{
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-top: 10px;
+    padding: 20px 73px 20px 73px;
+    margin-bottom: 20px;
+}
+
+.col1{
+    flex: 1;
+    padding-left: 20px;
+    margin-left: 40px;
+    animation: slide-in-left 1.5s ease;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+}
+
+@keyframes slide-in-left{
+    from{
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.col2{
+    flex: 1;
+    padding-left: 20px;
+    margin-left: 40px;
+    list-style-type: square;
+    animation: slide-in-right 1.5s ease;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+}
+
+@keyframes slide-in-right{
+    from{
+        opacity: 0;
+        transform: translateX(80px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.col1 h1{
+    line-height: 1.4;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.col2 h1{
+    line-height: 1.4;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.course-text-2 h1{
+    line-height: 1.4;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.course-text-2 p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1130px){
+    .course-banner, .course-bottom{
+        flex-direction: column;
+    }
+
+    .course-banner{
+        text-align: center;
+    }
+
+    .col1 ul{
+        margin-left: 20px;
+    }
+
+    .course-text h1{
+        line-height: 1.4;
+        font-size: 60px;
+        font-weight: 600;
+    }
+}

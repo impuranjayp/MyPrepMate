@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <CD>
+    <ARTIST>Bob Dylan</ARTIST>
+    <SUBJECT>DSA</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Bonnie Tyler</ARTIST>
+    <SUBJECT>Database</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Dolly Parton</ARTIST>
+    <SUBJECT>CNS</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Gary Moore</ARTIST>
+    <SUBJECT>HTML</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Eros Ramazzotti</ARTIST>
+    <SUBJECT>Database</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Bee Gees</ARTIST>
+    <SUBJECT>Java</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Dr.Hook</ARTIST>
+    <SUBJECT>IOT</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Rod Stewart</ARTIST>
+    <SUBJECT>Java</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Andrea Bocelli</ARTIST>
+    <SUBJECT>E-Commerce</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Percy Sledge</ARTIST>
+    <SUBJECT>IOT</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Savage Rose</ARTIST>
+    <SUBJECT>E-Commerce</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Many</ARTIST>
+    <SUBJECT>IOT</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Kenny Rogers</ARTIST>
+    <SUBJECT>Java</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Will Smith</ARTIST>
+    <SUBJECT>DSA</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Van Morrison</ARTIST>
+    <SUBJECT>CNS</SUBJECT>
+  </CD>
+  <CD>
+    <ARTIST>Jorn Hoel</ARTIST>
+    <SUBJECT>HTML</SUBJECT>
+  </CD>
+</CATALOG>
