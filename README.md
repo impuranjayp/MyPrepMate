@@ -15,3 +15,11 @@ This website is aimed to serving students at all levels of education. Currently,
 ![UI_Flow_MPM](https://user-images.githubusercontent.com/68175356/120814083-23a3a880-c56c-11eb-94be-a84d648a891f.PNG)
 
 ## UI Screenshots
+### Home Screen
+![UI_HomeScreen_MPM](https://user-images.githubusercontent.com/68175356/120817907-bb56c600-c56f-11eb-9fbd-ded1cf7735a5.PNG)
+### Course Screen
+![UI_CourseScreen_MPM](https://user-images.githubusercontent.com/68175356/120817743-982c1680-c56f-11eb-93e2-667945dd9f17.PNG)
+### Quiz Screen
+![UI_QuizScreen_MPM](https://user-images.githubusercontent.com/68175356/120817812-a5490580-c56f-11eb-8a23-5685eccf4b84.PNG)
+### About Screen
+![UI_AboutScreen_MPM](https://user-images.githubusercontent.com/68175356/120817837-ab3ee680-c56f-11eb-9be7-e706073045de.PNG)
