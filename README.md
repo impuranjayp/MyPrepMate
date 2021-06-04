@@ -12,5 +12,6 @@ This website is aimed to serving students at all levels of education. Currently,
 3. Quizzes: Combined with the facility to test their knowledge in the subject, students can fully prepared for the examinations.
 
 ## UI Flow
+![UI_Flow_MPM](https://user-images.githubusercontent.com/68175356/120814083-23a3a880-c56c-11eb-94be-a84d648a891f.PNG)
 
 ## UI Screenshots
