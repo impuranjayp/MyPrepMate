@@ -1,0 +1,39 @@
+{
+    "questions":[
+        {
+            "question":"What is the correct HTML for creating a hyperlink?",
+            "choiceA":"<a url='http://www.w3schools.com'>W3Schools.com</a>",
+            "choiceB":"<a name='http://www.w3schools.com'>W3Schools.com</a>",
+            "choiceC":"<a href='http://www.w3schools.com'>W3Schools</a>",
+            "correct":"C"
+        },
+        {
+            "question":"How do you create a function in Javascript?",
+            "choiceA":"function myFunction()",
+            "choiceB":"function = myFunction()",
+            "choiceC":"function: myFunction()",
+            "correct":"A"
+        },
+        {
+            "question":"Which sign does jQuery use as a shortcut for jQuery?",
+            "choiceA":"the ? sign",
+            "choiceB":"the # sign",
+            "choiceC":"the $ sign",
+            "correct":"C"
+        },
+        {
+            "question":"Select the property that is used to create spacing between HTML elements?",
+            "choiceA":"padding",
+            "choiceB":"margin",
+            "choiceC":"spacing",
+            "correct":"A"
+        },
+        {
+            "question":"In CSS, Select the property to set an image in a list instead of a standard bullet?",
+            "choiceA":"list-style-image:",
+            "choiceB":"list-image-src:",
+            "choiceC":"list-image:",
+            "correct":"A"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz_style.css">
+</head>
+<body onload="getWelcome()">
+    <header>
+		<div class="logo-container">
+			<a href="../intro_login/intro.html" class="logo">MyPrepMate</a>
+		</div>
+		<nav>
+			<ul class="nav-links">
+				<li ><a class="nav-link" href="../../stud_dash/stud-dash.html">Home</a></li>
+	  			<li ><a class="nav-link" href="../../Courses/Courses.html">Courses</a></li>
+	  			<li ><a class="nav-link" href="../../Videos/Videos.html">Videos</a></li>
+	  			<li ><a class="nav-link" href="../Quiz/quiz_home.html">Quiz</a></li>
+	  			<li ><a class="nav-link" href="../../elib_cart/Elibrary.php">E-library</a></li>
+	  			<li ><a href="../../About/about.html" class="head-button">About</a></li>
+				<li ><a href="../../intro_login/intro.html" class="head-button">LogOut!</a></li>
+			</ul>
+		</nav>
+		<div class="burger">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+    </header>
+    
+    <main>
+        <h1 class="title">
+            Java Programming
+        </h1>
+        <div id="container">
+            <div id="start">Start Quiz</div>
+            <div id="quiz" style="display: none;">
+                <div id="question">
+                    <p>
+                        Question
+                    </p>
+                </div>
+                <div id="choices">
+                    <div class="choice" id="A" onclick='checkAnswer("A")'>A</div>
+                    <div class="choice" id="B" onclick="checkAnswer('B')">B</div>
+                    <div class="choice" id="C" onclick="checkAnswer('C')">C</div>
+                </div>
+                <div id="timer">
+                    <div id="counter"></div>
+                    <div id="btimeGauge"></div>
+                    <div id="timeGauge"></div>
+                </div>
+            </div>
+            <div id="scoreContainer" style="display: none;">
+                <h1>
+                    Thank you for taking this quiz! <br>
+                    Your total Score is <br>
+                </h1>
+                <p id="scoreDisplay"></p>
+                <a href="">Go to Course Home</a>
+            </div>
+        </div>
+        <script src="quiz_script.js"></script>
+    </main>
+
+</body>
+</html>

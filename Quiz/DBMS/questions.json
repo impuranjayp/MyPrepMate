@@ -1,0 +1,39 @@
+{
+    "questions":[
+        {
+            "question":"Which of the following is NOT a rule out of the 12 rules of distributed database?",
+            "choiceA":"Fragmentation Independence",
+            "choiceB":"Hardware Independence",
+            "choiceC":"Global Autonomy",
+            "correct":"C"
+        },
+        {
+            "question":"Perservation of History is which type of changing dimension",
+            "choiceA":"Type 1 slowly changing",
+            "choiceB":"Type 2 slowly changing",
+            "choiceC":"Type 3 slowly changing",
+            "correct":"B"
+        },
+        {
+            "question":"Relationship type in Star Schema is ",
+            "choiceA":"one-to-many",
+            "choiceB":"many-to-many",
+            "choiceC":"many-to-one",
+            "correct":"A"
+        },
+        {
+            "question":"What is not true about OLAP?",
+            "choiceA":"Data is historical",
+            "choiceB":"Users are knowedge workers",
+            "choiceC":"DB design is application oriented",
+            "correct":"C"
+        },
+        {
+            "question":"_______ is a data transformation",
+            "choiceA":"Selection",
+            "choiceB":"Projection",
+            "choiceC":"Format Revision",
+            "correct":"C"
+        }
+    ]
+}

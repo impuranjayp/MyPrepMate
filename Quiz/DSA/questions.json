@@ -1,0 +1,18 @@
+{
+    "questions":[
+        {
+            "question":"What is the full form of BFS",
+            "choiceA":"Breadth First Search",
+            "choiceB":"Binary First Search",
+            "choiceC":"Breadth Final Search",
+            "correct":"A"
+        },
+        {
+            "question":"What is the full form of DFS",
+            "choiceA":"Deep First Search",
+            "choiceB":"Depth First Search",
+            "choiceC":"Delayed Final Search",
+            "correct":"B"
+        }
+    ]
+}

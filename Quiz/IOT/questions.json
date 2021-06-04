@@ -1,0 +1,39 @@
+{
+    "questions":[
+        {
+            "question":" _________ allows us to control electronic components",
+            "choiceA":"RESTful API",
+            "choiceB":"HTTP",
+            "choiceC":"MQTT",
+            "correct":"A"
+        },
+        {
+            "question":"MQTT stands for",
+            "choiceA":"MQ Telemetry Things",
+            "choiceB":"MQ Transport Telemetry",
+            "choiceC":"MQ Telemetry Transport",
+            "correct":"C"
+        },
+        {
+            "question":"What is the full form of IAAS",
+            "choiceA":"Infrastructure as a Service",
+            "choiceB":"Internet as a Service",
+            "choiceC":"Infrastructure as a Software",
+            "correct":"A"
+        },
+        {
+            "question":"What is the IoT built on?",
+            "choiceA":"Cloud Computing",
+            "choiceB":"Networks of data-gathering sensors",
+            "choiceC":"Both",
+            "correct":"C"
+        },
+        {
+            "question":"Number of Digital Pins in an Arduino Uno",
+            "choiceA":"12",
+            "choiceB":"13",
+            "choiceC":"14",
+            "correct":"C"
+        }
+    ]
+}

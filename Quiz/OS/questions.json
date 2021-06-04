@@ -1,0 +1,39 @@
+{
+    "questions":[
+        {
+            "question":"Kerberos protocol protect against which of the following attack",
+            "choiceA":"Dictionary attack",
+            "choiceB":"Man-in -middle attack",
+            "choiceC":"Denial of service attack",
+            "correct":"B"
+        },
+        {
+            "question":"An extra network-layer header is inserted by",
+            "choiceA":"AH in Transport Mode",
+            "choiceB":"ESP in Transport Mode",
+            "choiceC":"AH in Tunnel Mode",
+            "correct":"C"
+        },
+        {
+            "question":"IPSec is designed to withstand replay attacks through the use of",
+            "choiceA":"Sequence Numbers",
+            "choiceB":"Nonces",
+            "choiceC":"Nonces + Sequence Number",
+            "correct":"A"
+        },
+        {
+            "question":"Which Algorithm is not used for encryption in PGP",
+            "choiceA":"AES",
+            "choiceB":"Triple DES",
+            "choiceC":"DES",
+            "correct":"C"
+        },
+        {
+            "question":"Which of the following is not defined as MIME header",
+            "choiceA":"content type",
+            "choiceB":"content description",
+            "choiceC":"content encryption",
+            "correct":"C"
+        }
+    ]
+}

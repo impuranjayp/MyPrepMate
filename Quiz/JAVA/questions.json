@@ -1,0 +1,39 @@
+{
+    "questions":[
+        {
+            "question":"What is the correct way to create an object called myObj of MyClass?",
+            "choiceA":"MyClass myObj = new MyClass();",
+            "choiceB":"class myObj = new MyClass()",
+            "choiceC":"new myObj = MyClass();",
+            "correct":"A"
+        },
+        {
+            "question":"Which method can be used to return a string in upper case letters?",
+            "choiceA":"upperCase()",
+            "choiceB":"toUpperCase()",
+            "choiceC":"touppercase()",
+            "correct":"B"
+        },
+        {
+            "question":"What is a correct syntax to output 'Hello World' in Java?",
+            "choiceA":"System.out.println('Hello World');",
+            "choiceB":"print('Hello World')",
+            "choiceC":"echo('Hello World');",
+            "correct":"A"
+        },
+        {
+            "question":"How do you start writing a while loop in Java",
+            "choiceA":"while x > y {",
+            "choiceB":"while x > y :",
+            "choiceC":"while (x > y)",
+            "correct":"C"
+        },
+        {
+            "question":"How do you call a method in Java",
+            "choiceA":"methodName();",
+            "choiceB":"(methodName);",
+            "choiceC":"methodName[];",
+            "correct":"A"
+        }
+    ]
+}

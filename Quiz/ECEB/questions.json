@@ -1,0 +1,39 @@
+{
+    "questions":[
+        {
+            "question":"Which of the following is not a part of the Customer Life Cycle?",
+            "choiceA":"Retention",
+            "choiceB":"Experience",
+            "choiceC":"Awareness",
+            "correct":"A"
+        },
+        {
+            "question":"Deliver content such as news, histories, summaries, and other digital information is referred to as ",
+            "choiceA":"Transaction Websites",
+            "choiceB":"Informational Website",
+            "choiceC":"Content Delivery Sites",
+            "correct":"C"
+        },
+        {
+            "question":"Corporate networks that house internal memos, corporate policy handbooks is called as",
+            "choiceA":"Intranet",
+            "choiceB":"Extranet",
+            "choiceC":"Internet",
+            "correct":"A"
+        },
+        {
+            "question":"Which of the following is needed In Order to streamline the process and staying connected with customers",
+            "choiceA":"E-Procurement",
+            "choiceB":"E-Commerce",
+            "choiceC":"E-CRM",
+            "correct":"C"
+        },
+        {
+            "question":"Which is the model that considers how supply chain activities can add value to products and services delivered to the customer",
+            "choiceA":"SOSTAC",
+            "choiceB":"Porters Value Chain",
+            "choiceC":"5P's Marketing Model",
+            "correct":"B"
+        }
+    ]
+}
